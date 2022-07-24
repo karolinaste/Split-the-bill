@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&family=Barriecito&family=Barrio&family=Commissioner&family=Lora&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Commissioner', sans-serif;
+    background-color: rgb(233, 233, 233);
+    color: rgb(63, 54, 88);
+}
+
+.wrapper{
+    width: 600px;
+    background-color: #fff;
+    box-shadow: 0 5px 8px rgb(59, 58, 58);
+}
+
+h1{
+    font-family: 'Barriecito';
+    color: rgb(231, 229, 236);
+    font-size: 66px;
+
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    background-color: #cc4fa6;
+}
+
+.top p{
+    margin-top: 10px;
+    color: rgb(219, 214, 233);
+    font-size: 22px;
+
+}
+
+.bottom{
+    padding: 40px 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input, 
+select{
+    margin-bottom: 25px;
+    padding: 8px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.count,
+.clear{
+    display: inline-block;
+    margin:  20px auto;
+    padding: 20px 10px;
+    width: 40%;
+    border-radius: 8px;
+    background-color: #cc4fa6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    transition:  background-color 0.3s;
+}
+
+.count:hover {
+    background: rgb(248, 149, 232);
+}
+.clear:hover {
+    background: rgb(100, 57, 93);
+}
+.cost-info{
+    display: none;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.cost {
+    font-weight: bold;
+    color: #cc4fa6;
+}
+
+.error{
+    font-size: 18px;
+    color: #cc4fa6;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
